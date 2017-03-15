@@ -1,4 +1,4 @@
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
 
-module.exports = mongoose.connect('mongodb://mdbtodo/todo')
+module.exports = mongoose.connect('mongodb://mdbtodo:27017')
