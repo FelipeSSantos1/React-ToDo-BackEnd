@@ -5,7 +5,7 @@
   "main": "src/louder.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "node src/louder.js",
+    "production": "pm2 start src/loader.js --name todo-backend",
     "start": "node src/louder.js"
   },
   "keywords": [],
