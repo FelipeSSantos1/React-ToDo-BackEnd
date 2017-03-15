@@ -2,11 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/louder.js",
+  "main": "src/louder.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start ./src/loader.js --name todo-backend",
-    "start": "node src/louder.js"
+    "production": "pm2 start src/louder.js --name todo-app",
   },
   "keywords": [],
   "author": "",
