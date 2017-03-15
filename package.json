@@ -5,8 +5,8 @@
   "main": "src/louder.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "node start src/louder.js",
-    "start": "node start src/louder.js"
+    "production": "node src/louder.js",
+    "start": "node src/louder.js"
   },
   "keywords": [],
   "author": "",
